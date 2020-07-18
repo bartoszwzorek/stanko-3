@@ -1,0 +1,164 @@
+/*--------------------------------------------------------------
+# GALLERY #
+--------------------------------------------------------------*/
+
+/* added from venue template working perfectly fine - ok to copy paste to final code !*/
+
+@media (max-width: 574px) {
+    #venue .venue-info h3 {
+      font-size: 24px;
+    }
+  }
+  
+  #venue .venue-info p {
+    color: #fff;
+    margin-bottom: 0;
+  }
+  
+  #venue .venue-gallery-container {
+    padding-right: 12px;
+  }
+  
+  #venue .venue-gallery {
+    overflow: hidden;
+    border-right: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+  }
+  
+  #venue .venue-gallery img {
+    transition: all ease-in-out 0.4s;
+  }
+  
+  #venue .venue-gallery:hover img {
+    transform: scale(1.1);
+  }
+  
+  #venue .venue-gallery{
+    margin-bottom: 30px;
+    overflow: hidden;
+  }
+
+/*--------------------------------------------------------------
+  *  will sort it once I'll learn css using fixed responsive box height etc*
+--------------------------------------------------------------*/
+
+
+.invis {
+    color: white;
+  }
+
+/*--------------------------------------------------------------
+  *  will sort it once I'll learn css*
+--------------------------------------------------------------*/
+
+/*  to sort out make up button without drop shadow*/
+
+.pricing .box-btn {
+  padding: 20px;
+  background: #fff;
+  text-align: center;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+
+  }
+  
+  .pricing .box-btn .btn-buy {
+    display: inline-block;
+    padding: 8px 40px 10px 40px;
+    border-radius: 50px;
+    border: 2px solid #e43c5c;
+    color: #e43c5c;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    transition: 0.3s;
+  }
+  
+  .pricing .box-btn .btn-buy:hover {
+    background: #e43c5c;
+    color: #fff;
+  }
+
+
+
+/* to change color of links in make up section*/
+
+
+.pricing .sh {
+    font-size: 15px;
+    color: #444444;
+  }
+  
+  .pricing .sh:hover {
+    background: #ffffff;
+   
+    color: #e90101;
+  }
+  
+ /* tfixed background on smaller screens*/
+
+ @media (max-width: 768px) {
+    #hero {
+      background-attachment: fixed;
+    }
+  }
+
+
+ /* invert logo in header section*/
+
+ #header .logo img {
+    max-height: 40px;
+    
+   
+ }
+    
+ 
+
+ #header.header-scrolled .logo img, #header.header-inner-pages .logo img {
+  filter: invert(100%)  
+    
+}
+ 
+
+/* to change icons in CTA section */
+
+#cta-ico .social-links a {
+    font-size: 28px;
+    display: inline-block;
+    background: #fff;
+    color: #e43c5c;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+  }
+  
+  #cta-ico .social-links a:hover {
+    background: #e43c5c;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .cta-follow {
+      font-size: 18px;
+      
+  }
+
+
+  @media (min-width: 1024px) {
+    .cta {
+      background-attachment: fixed;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .cta {
+      background-attachment: fixed;
+    }
+  }
