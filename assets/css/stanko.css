@@ -128,8 +128,8 @@
     font-size: 18px;
     display: inline-block;
     background: rgba(255, 255, 255, 0);
-    border: 2px solid #fff;
-    color: #e43c5c;
+    border: 2px solid #e43c5c;
+    color: #fff;
     line-height: 1;
     padding: 8px 0;
     margin-right: 4px;
@@ -152,6 +152,18 @@
   }
 
 
+  /* change of border color in first CTA button section */
+
+  .cta .cta-btn {
+    
+    border: 2px solid #e43c5c;
+    color: #fff;
+  }
+  
+  
+
+
+
 
   @media (min-width: 1024px) {
     .cta {
@@ -166,7 +178,7 @@
   }
 
 
-  /* to change otline of LANGUAGE buttons in HERO section 
+  /* to change otline of LANGUAGE buttons in HERO section */
 
 
   #hero .btn-get-started {
@@ -175,7 +187,7 @@
    
   }
   
-  */
+  
 
 /* same size link text in each FAQ answer in FAQ section - using ID for each question
  */
@@ -241,5 +253,73 @@
 #footer2 .social-links a:hover {
   background: #d01d3f;
   color: #fff;
+  text-decoration: none;
+}
+
+
+/* box shadows for pricing and other elements */
+
+.services .icon-box {
+  background: #ffffff;
+  box-shadow:  5px 5px 10px #9e9e9e, 
+               -5px -5px 10px #ffffff;
+}
+
+.pricing .box {
+  
+  background: #ffffff;
+  box-shadow:  5px 5px 10px #9e9e9e, 
+               -5px -5px 10px #ffffff;
+  
+}
+
+#header.header-scrolled, #header.header-inner-pages {
+ 
+  box-shadow:  5px 5px 10px #9e9e9e69, 
+               -5px -5px 10px #ffffff4f;
+  padding: 12px 0;
+}
+
+/* box shadows for makeup site and other elements */
+
+.blog .sidebar {
+  background: #ffffff;
+  box-shadow:  5px 5px 10px #9e9e9e, 
+               -5px -5px 10px #ffffff;
+               border-radius: 8px;
+}
+
+.blog .entry {
+  background: #ffffff;
+  box-shadow:  5px 5px 10px #9e9e9e, 
+               -5px -5px 10px #ffffff;
+               border-radius: 8px;
+  
+}
+
+
+/* changes to text styles former blog site aka permanent make up */
+
+.blog .entry-single .entry-title {
+  font-size: 32px;
+  line-height: 42px;
+  
+}
+.blog .entry-single .entry-title span {
+ color: #e43c5c;
+}
+
+.blog .sidebar a {
+  color: #493c3e;
+  text-decoration: none;
+}
+
+.blog .sidebar ul {
+   list-style: none;
+   
+}
+
+.blog .sidebar a:hover {
+  color: #ea6981;
   text-decoration: none;
 }
