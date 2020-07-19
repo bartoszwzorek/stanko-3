@@ -125,9 +125,10 @@
 /* to change icons in CTA section */
 
 #cta-ico .social-links a {
-    font-size: 28px;
+    font-size: 18px;
     display: inline-block;
-    background: #fff;
+    background: rgba(255, 255, 255, 0);
+    border: 2px solid #fff;
     color: #e43c5c;
     line-height: 1;
     padding: 8px 0;
@@ -151,6 +152,7 @@
   }
 
 
+
   @media (min-width: 1024px) {
     .cta {
       background-attachment: fixed;
@@ -162,3 +164,82 @@
       background-attachment: fixed;
     }
   }
+
+
+  /* to change otline of LANGUAGE buttons in HERO section 
+
+
+  #hero .btn-get-started {
+    
+    border: 2px solid #e43c5c;
+   
+  }
+  
+  */
+
+/* same size link text in each FAQ answer in FAQ section - using ID for each question
+ */
+ #faq1 a {
+  display: inline;
+  font-size: 15px;
+}
+
+ #faq2 a {
+  display: inline;
+  font-size: 15px;
+}
+
+ #faq3 a {
+  display: inline;
+  font-size: 15px;
+}
+
+ #faq4 a {
+  display: inline;
+  font-size: 15px;
+}
+
+#faq5 a {
+  display: inline;
+  font-size: 15px;
+}
+
+#faq6 a {
+  display: inline;
+  font-size: 15px;
+}
+
+
+/* email not highlighted as link */
+
+#contact .email a {
+  color: #816a6e;
+}
+
+#contact .email a:hover {
+  color: #e43c5c;
+  text-decoration: none;
+}
+
+/* social icons in contact section using settings from footer ;/ */
+
+#footer2 .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #e43c5c;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer2 .social-links a:hover {
+  background: #d01d3f;
+  color: #fff;
+  text-decoration: none;
+}
