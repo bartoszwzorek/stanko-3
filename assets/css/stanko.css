@@ -323,3 +323,13 @@
   color: #ea6981;
   text-decoration: none;
 }
+
+.blog .sidebar li {
+  
+margin-bottom: 10px;
+}
+
+.blog .sidebar ul {
+  
+  padding-inline-start: 25;
+  }
