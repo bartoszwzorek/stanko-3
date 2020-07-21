@@ -333,3 +333,7 @@ margin-bottom: 10px;
   
   padding-inline-start: 25;
   }
+
+.entry-content p span {
+    color: #e43c5c;
+  }
