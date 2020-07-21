@@ -337,3 +337,13 @@ margin-bottom: 10px;
 .entry-content p span {
     color: #e43c5c;
   }
+
+/* sticky for pernament make up section - side bar - try tofind fix so first line is still visible */
+
+
+  .sidebar {
+    position: -webkit-sticky; /*safari*/
+    position: sticky;
+  top: 0;
+  
+  }
