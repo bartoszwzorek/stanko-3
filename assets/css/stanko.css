@@ -153,17 +153,17 @@
     color: #fff;
   }
   
-  
+  /* to fix iphone fixed position background in hero and cta section */
  
- /* tfixed background on smaller screens
 
- @media (max-width: 768px) {
+
+ @media (min-width: 300px) {
   #hero {
     background-attachment: fixed;
   }
 }
 
-  @media (min-width: 1024px) {
+  @media (min-width: 300px) {
     .cta {
       background-attachment: fixed;
     }
@@ -171,13 +171,16 @@
 
   
 
-  @media (max-width: 768px) {
-    .cta {
-      background-attachment: fixed;
-    }
-  }
-  
-*/
+
+#hero {
+  display: table;
+ 
+-webkit-background-position: fixed;
+  -moz-background-position: fixed;
+  -o-background-position: fixed;
+}
+
+
 
   /* to change otline of LANGUAGE buttons in HERO section */
 
