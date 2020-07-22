@@ -484,3 +484,12 @@ margin-bottom: 10px;
   .contra-against-list li {
     font-size: 15px;
   }
+
+
+  /* lowercase in CTA2 button */
+
+  .cta .text-center .cta-btn {
+    text-transform: none;
+  }
+
+  
