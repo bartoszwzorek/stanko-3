@@ -96,14 +96,7 @@
    
     color: #e90101;
   }
-  
- /* tfixed background on smaller screens*/
-
- @media (max-width: 768px) {
-    #hero {
-      background-attachment: fixed;
-    }
-  }
+ 
 
 
  /* invert logo in header section*/
@@ -161,9 +154,26 @@
   }
   
   
+ 
+ /* tfixed background on smaller screens*/
 
+ @media (max-width: 768px) {
+  #hero {
+    background-attachment: fixed;
+  }
+}
 
-
+.cta {
+  -webkit-backgound-size: cover;
+  -o-backgound-size: cover;
+  -moz-backgound-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-align: center;
+  overflow: auto;
+}
 
   @media (min-width: 1024px) {
     .cta {
@@ -344,7 +354,7 @@ margin-bottom: 10px;
   .sidebar {
     position: -webkit-sticky; /*safari*/
     position: sticky;
-  top: 0;
+  top: 5%; /* change to stick it higher or lower to the top ;) */
   
   }
 
