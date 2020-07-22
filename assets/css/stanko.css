@@ -155,7 +155,7 @@
   
   
  
- /* tfixed background on smaller screens*/
+ /* tfixed background on smaller screens
 
  @media (max-width: 768px) {
   #hero {
@@ -163,20 +163,21 @@
   }
 }
 
-
-
   @media (min-width: 1024px) {
     .cta {
       background-attachment: fixed;
     }
   }
 
+  
+
   @media (max-width: 768px) {
     .cta {
       background-attachment: fixed;
     }
   }
-
+  
+*/
 
   /* to change otline of LANGUAGE buttons in HERO section */
 
