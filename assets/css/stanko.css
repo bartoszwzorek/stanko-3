@@ -153,7 +153,7 @@
     color: #fff;
   }
   
-  /* to fix iphone fixed position background in hero and cta section */
+  /* to mobile fixed position background in hero and cta section */
  
 
 
@@ -169,16 +169,87 @@
     }
   }
 
-  
 
+  /*for iphone and ipads only - background scroll */
 
-#hero {
-  display: table;
- 
--webkit-background-position: fixed;
-  -moz-background-position: fixed;
-  -o-background-position: fixed;
+/* ipad 1-5*/
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { /* STYLES GO HERE */
+  .cta {
+    background-attachment: scroll;
+      }
 }
+
+/* ipad mini */
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 1)  { /* STYLES GO HERE */
+  .cta {
+    background-attachment: scroll;
+      }
+}
+
+/* iphone 10 */
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) { /* STYLES GO HERE */
+  .cta {
+    background-attachment: scroll;
+      }
+}
+
+/* iphone 6,7,8, */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) { /* STYLES GO HERE */
+  .cta {
+    background-attachment: scroll;
+      }
+}
+
+/* iphone 6,7,8 + */
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) { /* STYLES GO HERE */
+  .cta {
+    background-attachment: scroll;
+      }
+}
+
+
+/* IPHONE 5 5S */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) { /* STYLES GO HERE */
+  .cta {
+    background-attachment: scroll;
+      }
+}
+
+/* IPHONE 2,3,4S */
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) { /* STYLES GO HERE */
+  .cta {
+    background-attachment: scroll;
+      }
+}
+
+
+
+
+
+
+
+
+
 
 
 
