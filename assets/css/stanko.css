@@ -347,3 +347,43 @@ margin-bottom: 10px;
   top: 0;
   
   }
+
+
+  /* changes to list style in permanent-pre-treatment CONTRADICTIONS */
+
+  .contra-absolute-list {
+    list-style: none;
+    list-style-position: inside;
+    border-left: 3px solid #e43c5c;
+  }
+  .contra-absolute-list li::before {
+    content: "•";
+    font-size: 15px;
+    line-height: 0;
+    margin: 0 0.3rem 0 -0.25rem;
+    position: relative;
+    color: #e43c5c;
+  }
+
+  .contra-absolute-list li {
+    font-size: 15px;
+  }
+
+  .contra-against-list {
+    list-style: none;
+    list-style-position: inside;
+    border-left: 3px solid #444444;
+  }
+  .contra-against-list li::before {
+    content: "•";
+    
+    line-height: 0;
+    margin: 0 0.3rem 0 -0.25rem;
+    position: relative;
+    
+    color: #444444;
+  }
+
+  .contra-against-list li {
+    font-size: 15px;
+  }
