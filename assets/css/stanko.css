@@ -492,4 +492,9 @@ margin-bottom: 10px;
     text-transform: none;
   }
 
-  
+  /* ombre brows buy button color sorted */
+  .pricing .recommended .btn-buy:hover {
+    background: #ffffff;
+    border-color: #d91e42;
+    color: #110e0e;
+  }
