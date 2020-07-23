@@ -498,3 +498,23 @@ margin-bottom: 10px;
     border-color: #d91e42;
     color: #110e0e;
   }
+
+
+  /* text justified */
+  .entry-content {
+    text-align: justify;
+  }
+
+ 
+
+  .col-lg-6 {
+    text-align: justify;
+  }
+
+  .make-up-justify {
+    text-align: justify;
+  }
+
+  .collapse {
+    text-align: justify;
+  }
