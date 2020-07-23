@@ -518,3 +518,12 @@ margin-bottom: 10px;
   .collapse {
     text-align: justify;
   }
+
+  .contra-absolute-list {
+    line-height: 1.6;
+    
+  }
+
+  .contra-against-list {
+    line-height: 1.6;
+  }

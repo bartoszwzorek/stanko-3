@@ -1,7 +1,3 @@
-Template Name: Tempo
-Template URL: https://bootstrapmade.com/tempo-free-onepage-bootstrap-theme/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
 
 -== new layout based on bootstrap template ==-
 
